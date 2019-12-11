@@ -91,9 +91,12 @@ jobs:
           touch ./.config
           # 编译x64固件:
           cat >> .config <<EOF
-          CONFIG_TARGET_x86=y
-          CONFIG_TARGET_x86_64=y
-          CONFIG_TARGET_x86_64_Generic=y
+          # CONFIG_TARGET_x86=y
+          # CONFIG_TARGET_x86_64=y
+          # CONFIG_TARGET_x86_64_Generic=y
+          CONFIG_TARGET_oxnas=y
+          CONFIG_TARGET_oxnas=y
+          CONFIG_TARGET_oxnas_Generic=y
           EOF
           
           # 设置固件大小:
