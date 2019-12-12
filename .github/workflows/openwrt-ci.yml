@@ -85,7 +85,8 @@ jobs:
           # CONFIG_TARGET_x86_64=y
           # CONFIG_TARGET_x86_64_Generic=y
           CONFIG_TARGET_oxnas=y
-          CONFIG_TARGET_oxnas_Generic=y
+          CONFIG_TARGET_oxnas_ox820=y
+          CONFIG_TARGET_oxnas_ox820_Default=y
           EOF
           # 固件压缩:
           cat >> .config <<EOF
